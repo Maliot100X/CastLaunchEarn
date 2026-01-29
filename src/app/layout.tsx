@@ -55,6 +55,9 @@ export const metadata: Metadata = {
     "fc:frame:button:1": "Launch App",
     "fc:frame:button:1:action": "launch_frame",
     "fc:frame:button:1:target": appUrl,
+
+    // Base platform verification
+    "base:app_id": "697be9ea77db5d481cffc79d",
   },
 };
 
