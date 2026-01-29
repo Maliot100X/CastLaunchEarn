@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useAccount, useWalletClient, usePublicClient } from "wagmi";
-import { Zap, Clock, Star, Sparkles, Loader2, Search, CheckCircle } from "lucide-react";
+import { Zap, Clock, Star, Sparkles, Loader2, Search, CheckCircle, Flame } from "lucide-react";
 import { supabase } from "@/lib/supabase";
 import { useMiniApp } from "@/providers/MiniAppContext";
 import { parseEther, type Address } from "viem";
