@@ -1,5 +1,8 @@
-import { type Address, type WalletClient, type PublicClient, parseEther } from 'viem';
+import { type WalletClient, type PublicClient, parseEther } from 'viem';
 import { base, zora } from 'viem/chains';
+
+// Define Address type locally to ensure compilation even if viem export is missing/mismatched
+type Address = `0x${string}`;
 
 // Coin creation parameters
 export interface CreateCoinParams {
@@ -39,7 +42,6 @@ export async function createUserCoin(
 
     console.log(`[createUserCoin] Target Chain: ${targetChain.name} (${targetChainId})`);
 
-    // Ensure clients have the correct chain attached
     // Ensure clients have the correct chain attached
     // This fixes the "Client network needs to be base" error
     const publicClientWithChain = {
