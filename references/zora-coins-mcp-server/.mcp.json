@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "zora-coins": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "zora-coins-mcp"
+      ],
+      "env": {}
+    }
+  }
+}

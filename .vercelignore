@@ -1,0 +1,8 @@
+# Ignore reference folders - they're for development only
+references/
+
+# Ignore other development files
+.next/
+node_modules/
+*.log
+.env*.local

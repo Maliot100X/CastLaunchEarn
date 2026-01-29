@@ -1,0 +1,66 @@
+{
+  "name": "zora-coins-mcp-server",
+  "version": "0.1.2",
+  "description": "An MCP (Model Context Protocol) server exposing Zora Coins SDK queries and write actions over stdio.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "zora-coins-mcp-server": "dist/index.js",
+    "zora-coins-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    ".env.example"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "mcp:stdio": "tsx src/index.ts",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist",
+    "lint": "echo \"(linting not configured)\"",
+    "test": "echo \"No tests configured yet\""
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "zora",
+    "coins",
+    "creator-coins",
+    "base",
+    "ethereum",
+    "blockchain",
+    "sdk",
+    "stdio",
+    "typescript",
+    "web3",
+    "defi"
+  ],
+  "author": "r4topunk",
+  "license": "MIT",
+  "homepage": "https://github.com/r4topunk/zora-coins-mcp-server#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r4topunk/zora-coins-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r4topunk/zora-coins-mcp-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.2",
+    "@zoralabs/coins-sdk": "^0.2.11",
+    "dotenv": "^16.4.5",
+    "viem": "^2.13.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}

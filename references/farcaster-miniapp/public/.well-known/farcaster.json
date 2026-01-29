@@ -1,0 +1,20 @@
+{
+"frame": {
+"name": "Xerxes MiniApp Template",
+"homeUrl": "https://farcaster-miniapp-template-steel.vercel.app/miniapp",
+"iconUrl": "https://farcaster-miniapp-template-steel.vercel.app/logo.png",
+"version": "1",
+"imageUrl": "https://farcaster-miniapp-template-steel.vercel.app/logo.png",
+"subtitle": "Nextjs MiniApp Template",
+"webhookUrl": "https://farcaster-miniapp-template-steel.vercel.app/api/webhook",
+"description": "Nextjs MiniApp Template using shadcn and tailwind",
+"splashImageUrl": "https://farcaster-miniapp-template-steel.vercel.app/logo.png",
+"primaryCategory": "developer-tools",
+"splashBackgroundColor": "#E8EBED"
+},
+"accountAssociation": {
+"header": "eyJmaWQiOjc5NTYwNiwidHlwZSI6ImF1dGgiLCJrZXkiOiIweEJjMDhmZjEyQTNhYzE3MzZhQTYxMkFhODZDQjZjMDI0Njc1OUEzM0UifQ",
+"payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItbWluaWFwcC10ZW1wbGF0ZS1zdGVlbC52ZXJjZWwuYXBwIn0",
+"signature": "MYDZ4gPwJ3S7/4DcS13JYmhAXGLnTcU0f3pQ43LYKI0R3FjwZGafOr/ZCZl+yFaCQ0DojWm9PWNuPjJi/mYJixw="
+}
+}

@@ -1,0 +1,16 @@
+{
+    "accountAssociation": {
+        "header": "eyJmaWQiOjAsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIn0",
+        "payload": "eyJkb21haW4iOiJjYXN0LWxhdW5jaC1lYXJuLnZlcmNlbC5hcHAifQ",
+        "signature": "MHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDA"
+    },
+    "frame": {
+        "version": "1",
+        "name": "CastLaunchEarn",
+        "iconUrl": "https://cast-launch-earn.vercel.app/icon.png",
+        "homeUrl": "https://cast-launch-earn.vercel.app",
+        "splashImageUrl": "https://cast-launch-earn.vercel.app/splash.png",
+        "splashBackgroundColor": "#1a0a2e",
+        "webhookUrl": "https://cast-launch-earn.vercel.app/api/webhook"
+    }
+}
