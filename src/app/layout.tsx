@@ -4,6 +4,7 @@ import "./globals.css";
 import Providers from "@/providers/Providers";
 import BottomNav from "@/components/BottomNav";
 import AIBot from "@/components/AIBot";
+import CryptoSnow from "@/components/CryptoSnow";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
