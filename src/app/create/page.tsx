@@ -120,6 +120,12 @@ export default function CreatePage() {
 
             console.log(`Launching on ${launchType} -> Chain ID: ${targetChainId}`);
 
+            if (!walletClient || !publicClient) {
+                alert("Please connect your wallet first");
+                setIsCreating(false);
+                return;
+            }
+
             // Call createUserCoin with the specific target chain
             coinResult = await createUserCoin(
                 {
