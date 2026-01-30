@@ -1,9 +1,63 @@
 {
-    "redirects": [
+    "rewrite": [
         {
-            "source": "/.well-known/farcaster.json",
-            "destination": "https://api.farcaster.xyz/miniapps/hosted-manifest/019c0f13-6afc-9e53-7076-82659a205a99",
-            "permanent": false
+            "source": "/icon.png",
+            "destination": "/icon.jpg"
+        },
+        {
+            "source": "/hero.png",
+            "destination": "/hero.jpg"
+        },
+        {
+            "source": "/og-image.png",
+            "destination": "/og-image.jpg"
+        },
+        {
+            "source": "/splash.png",
+            "destination": "/splash.jpg"
+        },
+        {
+            "source": "/screenshot.png",
+            "destination": "/screenshot.jpg"
+        },
+        {
+            "source": "/image.png",
+            "destination": "/image.jpg"
+        },
+        {
+            "source": "/icon",
+            "destination": "/icon.jpg"
+        },
+        {
+            "source": "/hero",
+            "destination": "/hero.jpg"
+        },
+        {
+            "source": "/og-image",
+            "destination": "/og-image.jpg"
+        },
+        {
+            "source": "/splash",
+            "destination": "/splash.jpg"
+        },
+        {
+            "source": "/screenshot",
+            "destination": "/screenshot.jpg"
+        },
+        {
+            "source": "/image",
+            "destination": "/image.jpg"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
         }
     ]
 }
