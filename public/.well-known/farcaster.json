@@ -25,15 +25,13 @@
         "ogTitle": "CastLaunchEarn Earn Boost",
         "ogDescription": "Manage coins boost stats and track leaderboards on Farcaster",
         "ogImageUrl": "https://cast-launch-earn.vercel.app/og-image.png",
-        "castShareUrl": "https://warpcast.com/~/compose?text=CastLaunchEarn",
+        "castShareUrl": "https://cast-launch-earn.vercel.app/share",
         "tags": [
             "social",
-            "messaging",
             "community",
             "memecoins",
             "ai",
-            "zora",
-            "baseminiapp"
+            "base"
         ]
     }
 }
