@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
+import sdk from "@farcaster/frame-sdk";
+import { useEffect } from "react";
 
 const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://cast-launch-earn.vercel.app";
 
 export const metadata: Metadata = {
   title: "CastLaunchEarn - Create & Trade Coins on Base",
-  description: "Create & Trade Coins on Base - Farcaster Mini App",
+  description: "Create & Trade Coins on Base - Far caster Mini App",
   metadataBase: new URL(appUrl),
   openGraph: {
     title: "CastLaunchEarn",
@@ -19,27 +21,19 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "CastLaunchEarn",
-    description: "Create & Trade Coins on Base",
-    images: ["/image.png"],
-  },
   other: {
-    // Farcaster Mini App Frame tags
-    "fc:frame": "vNext",
-    "fc:frame:image": `${appUrl}/image.png`,
-    "fc:frame:image:aspect_ratio": "1:1",
-    "fc:frame:button:1": "Launch App",
-    "fc:frame:button:1:action": "link",
-    "fc:frame:button:1:target": appUrl,
-    "fc:frame:post_url": `${appUrl}/api/webhook`,
-
-    // Additional OG tags
-    "og:image": `${appUrl}/image.png`,
-    "og:image:width": "1024",
-    "og:image:height": "1024",
-    "og:image:type": "image/png",
+    // Farcaster Mini App Embed metadata
+    "fc:miniapp": JSON.stringify({
+      version: "next",
+      imageUrl: `${appUrl}/image.png`,
+      button: {
+        title: "LaunchAndEarn",
+        action: {
+          type: "launch_frame",
+          url: appUrl,
+        },
+      },
+    }),
   },
 };
 
