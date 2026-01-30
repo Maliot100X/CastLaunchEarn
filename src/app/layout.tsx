@@ -49,11 +49,11 @@ export const metadata: Metadata = {
     images: ["/hero.png"],
   },
   other: {
-    // Farcaster Frame meta tags
+    // Farcaster Frame meta tags for Mini App detection
     "fc:frame": "vNext",
     "fc:frame:image": `${appUrl}/hero.png`,
     "fc:frame:button:1": "Launch App",
-    "fc:frame:button:1:action": "launch_frame",
+    "fc:frame:button:1:action": "link",
     "fc:frame:button:1:target": appUrl,
 
     // Base platform verification
