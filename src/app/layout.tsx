@@ -48,6 +48,13 @@ export const metadata: Metadata = {
     description: "Create & Trade Coins on Base",
     images: ["/hero.png"],
   },
+  other: {
+    "fc:frame": "vNext",
+    "fc:frame:image": `${appUrl}/og-image.png`,
+    "fc:frame:button:1": "LaunchAndEarn",
+    "fc:frame:button:1:action": "link",
+    "fc:frame:button:1:target": appUrl,
+  },
 };
 
 export const viewport: Viewport = {
