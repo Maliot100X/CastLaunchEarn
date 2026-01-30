@@ -1,4 +1,54 @@
 {
+    "rewrites": [
+        {
+            "source": "/icon.png",
+            "destination": "/icon.jpg"
+        },
+        {
+            "source": "/hero.png",
+            "destination": "/hero.jpg"
+        },
+        {
+            "source": "/og-image.png",
+            "destination": "/og-image.jpg"
+        },
+        {
+            "source": "/splash.png",
+            "destination": "/splash.jpg"
+        },
+        {
+            "source": "/screenshot.png",
+            "destination": "/screenshot.jpg"
+        },
+        {
+            "source": "/image.png",
+            "destination": "/image.jpg"
+        },
+        {
+            "source": "/icon",
+            "destination": "/icon.jpg"
+        },
+        {
+            "source": "/hero",
+            "destination": "/hero.jpg"
+        },
+        {
+            "source": "/og-image",
+            "destination": "/og-image.jpg"
+        },
+        {
+            "source": "/splash",
+            "destination": "/splash.jpg"
+        },
+        {
+            "source": "/screenshot",
+            "destination": "/screenshot.jpg"
+        },
+        {
+            "source": "/image",
+            "destination": "/image.jpg"
+        }
+    ],
     "redirects": [
         {
             "source": "/.well-known/farcaster.json",
