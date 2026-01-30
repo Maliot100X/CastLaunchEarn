@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
-import sdk from "@farcaster/frame-sdk";
-import { useEffect } from "react";
 
 const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://cast-launch-earn.vercel.app";
 
 export const metadata: Metadata = {
   title: "CastLaunchEarn - Create & Trade Coins on Base",
-  description: "Create & Trade Coins on Base - Far caster Mini App",
+  description: "Create & Trade Coins on Base - Farcaster Mini App",
   metadataBase: new URL(appUrl),
   openGraph: {
     title: "CastLaunchEarn",
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
     type: "website",
   },
   other: {
-    // Farcaster Mini App Embed metadata
+    // Farcaster Mini App Embed metadata per Base docs
     "fc:miniapp": JSON.stringify({
       version: "next",
       imageUrl: `${appUrl}/image.png`,
