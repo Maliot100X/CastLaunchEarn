@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://castlaunchearn.vercel.app";
+const appUrl = process.env.NEXT_PUBLIC_APP_URL || "https://cast-launch-earn.vercel.app";
 
 export const metadata: Metadata = {
   title: "CastLaunchEarn - Create & Trade Coins on Base",
