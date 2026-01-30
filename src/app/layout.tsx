@@ -48,17 +48,6 @@ export const metadata: Metadata = {
     description: "Create & Trade Coins on Base",
     images: ["/hero.png"],
   },
-  other: {
-    // Farcaster Frame meta tags for Mini App detection
-    "fc:frame": "vNext",
-    "fc:frame:image": `${appUrl}/hero.png`,
-    "fc:frame:button:1": "Launch App",
-    "fc:frame:button:1:action": "link",
-    "fc:frame:button:1:target": appUrl,
-
-    // Base platform verification
-    "base:app_id": "697be9ea77db5d481cffc79d",
-  },
 };
 
 export const viewport: Viewport = {
