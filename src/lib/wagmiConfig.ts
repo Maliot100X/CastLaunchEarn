@@ -28,7 +28,7 @@ export const wagmiConfig = createConfig({
     // Coinbase Wallet  
     coinbaseWallet({
       appName: "CastLaunchEarn",
-      appLogoUrl: "https://cast-launch-earn.vercel.app/icon.png",
+      appLogoUrl: "https://cast-launch-earn.vercel.app/icon.jpg",
     }),
     // WalletConnect (Explicitly added for broader support)
     walletConnect({ projectId }),
