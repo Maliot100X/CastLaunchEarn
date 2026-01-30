@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   description: "The ultimate Farcaster Mini App for creating and trading coins on Base. Earn rewards, climb leaderboards, and join the community.",
   metadataBase: new URL(appUrl),
   icons: {
-    icon: "/icon.png",
-    apple: "/icon.png",
+    icon: "/icon.jpg",
+    apple: "/icon.jpg",
   },
   openGraph: {
     title: "CastLaunchEarn",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "CastLaunchEarn",
     images: [
       {
-        url: "/hero.png",
+        url: "/hero.jpg",
         width: 1200,
         height: 630,
         alt: "CastLaunchEarn - Create & Trade Coins",
@@ -46,11 +46,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "CastLaunchEarn",
     description: "Create & Trade Coins on Base",
-    images: ["/hero.png"],
+    images: ["/hero.jpg"],
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": `${appUrl}/og-image.png`,
+    "fc:frame:image": `${appUrl}/og-image.jpg`,
     "fc:frame:button:1": "LaunchAndEarn",
     "fc:frame:button:1:action": "link",
     "fc:frame:button:1:target": appUrl,
