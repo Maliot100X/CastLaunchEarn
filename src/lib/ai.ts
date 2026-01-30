@@ -20,6 +20,7 @@ export interface CoinGenerationResult {
 // Try each AI provider in sequence until one succeeds
 async function callAI(messages: AIMessage[], providerIndex: number = 0): Promise<string> {
     if (providerIndex >= AI_PROVIDERS.length) {
+        console.error("All AI providers failed. Keys present:", AI_PROVIDERS.map((p, i) => `Provider ${i + 1}: ${!!p.key}`));
         throw new Error('All AI providers failed');
     }
 

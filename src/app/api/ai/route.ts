@@ -36,9 +36,12 @@ export async function POST(request: NextRequest) {
             try {
                 const response = await chatWithAI(message, context);
                 return NextResponse.json({ response });
-            } catch (err) {
-                console.error('Chat logic error:', err);
-                return NextResponse.json({ response: "Sorry, I'm having trouble connecting to my brain right now. Please try again!" });
+            } catch (err: any) {
+                console.error('Chat logic error detail:', err.message);
+                console.error('Stack:', err.stack);
+                return NextResponse.json({
+                    response: "Sorry, I'm having trouble connecting to my brain. Please check Vercel logs for API key status."
+                });
             }
         }
 
