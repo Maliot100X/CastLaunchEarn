@@ -19,20 +19,6 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  other: {
-    // Farcaster Mini App Embed metadata per Base docs
-    "fc:miniapp": JSON.stringify({
-      version: "next",
-      imageUrl: `${appUrl}/image.png`,
-      button: {
-        title: "LaunchAndEarn",
-        action: {
-          type: "launch_frame",
-          url: appUrl,
-        },
-      },
-    }),
-  },
 };
 
 export default function HomePage() {

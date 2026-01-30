@@ -3,35 +3,5 @@
         "header": "eyJmaWQiOjE0MjgzODQsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhmNWJDOTczOThiM0E2MzI5YkUzMzlBZjA4Y2JCY2EyN2VhRUVkQjNCIn0",
         "payload": "eyJkb21haW4iOiJjYXN0LWxhdW5jaC1lYXJuLnZlcmNlbC5hcHAifQ",
         "signature": "fH1u7jirw7TZWUo0iPj3hnAnNZQueQH877f8qsl9N8BcoKqAjlKf5o6HRU0/Nl/TrX01SZh0JOQli//p4MmuMxs="
-    },
-    "frame": {
-        "version": "1",
-        "name": "CastLaunchEarn",
-        "iconUrl": "https://cast-launch-earn.vercel.app/icon.png",
-        "homeUrl": "https://cast-launch-earn.vercel.app",
-        "imageUrl": "https://cast-launch-earn.vercel.app/image.png",
-        "buttonTitle": "LaunchAndEarn",
-        "splashImageUrl": "https://cast-launch-earn.vercel.app/splash.png",
-        "splashBackgroundColor": "#1a0a2e",
-        "webhookUrl": "https://cast-launch-earn.vercel.app/api/webhook",
-        "subtitle": "Create Launch Earn",
-        "description": "Manage Base and Zora coins with Farcaster integration. Boost stats, track leaderboards, and connect instantly",
-        "screenshotUrls": [
-            "https://cast-launch-earn.vercel.app/screenshot.png"
-        ],
-        "primaryCategory": "finance",
-        "tags": [
-            "social",
-            "memecoins",
-            "ai",
-            "zora"
-        ],
-        "heroImageUrl": "https://cast-launch-earn.vercel.app/hero.png",
-        "tagline": "Create Boost Earn on Base",
-        "ogTitle": "CastLaunchEarn Earn Boost",
-        "ogDescription": "Manage coins boost stats and track leaderboards on Farcaster",
-        "ogImageUrl": "https://cast-launch-earn.vercel.app/og-image.png",
-        "castShareUrl": "https://cast-launch-earn.vercel.app/share",
-        "noindex": false
     }
 }
